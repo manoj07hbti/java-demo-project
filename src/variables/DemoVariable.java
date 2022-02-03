@@ -23,6 +23,8 @@ public class DemoVariable {
       double salary=23244.54;
       System.out.println("Printing salary "+salary);
 
+      System.out.println("Demo code checkin...");
+
 
     }
 }
