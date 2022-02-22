@@ -46,9 +46,11 @@ public class DemoArrayList {
        ArrayList <String> stringArrayList= new ArrayList<>();
        stringArrayList.add("Java");
        stringArrayList.add("Spring");
+        stringArrayList.add("Spring");
+        stringArrayList.add("Spring");
        stringArrayList.add("Microservices");
        for (String var: stringArrayList){
-           System.out.println("printing value "+var);
+           System.out.println("printing  String value "+var);
        }
 
     }
