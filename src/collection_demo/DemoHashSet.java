@@ -45,9 +45,25 @@ public class DemoHashSet {
 
 
     }
+    public void createDoubleSet(){
+
+        HashSet <Double> doubles= new HashSet();
+        doubles.add(45.6);
+        doubles.add(45.6);
+        doubles.add(44.6);
+        doubles.add(476.6);
+        doubles.add(45.6);
+
+        for (Double var: doubles){
+
+            System.out.println("Printing Doubles "+var);
+        }
+    }
+
     public static void main(String[] args) {
         DemoHashSet obj= new DemoHashSet();
         obj.createHashSet();
         obj.createIntegerSet();
+        obj.createDoubleSet();
     }
 }
