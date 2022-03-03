@@ -3,6 +3,8 @@ package collection_demo;
 import org.omg.CORBA.INTERNAL;
 
 import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 
 public class DemoHashSet {
 
@@ -11,6 +13,18 @@ public class DemoHashSet {
         //SYNTAX : CollectionName<Datatype> objName= New CollectionName();
 
         HashSet <String>  stringHashSet= new HashSet<>();
+
+        LinkedHashSet <String > stringLinkedHashSet= new LinkedHashSet<>();
+        stringLinkedHashSet.add("Test1");
+        stringLinkedHashSet.add("Test2");
+        stringLinkedHashSet.add("Test3");
+        stringLinkedHashSet.add("Test4");
+
+        for (String var : stringLinkedHashSet){
+
+            System.out.println("Printing stringLinkedHashSet "+var);
+        }
+
 
         stringHashSet.add("Java");
         stringHashSet.add("Java");

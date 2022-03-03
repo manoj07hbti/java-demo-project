@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class HashMapDemo {
 
-   // HashMap <Datatype_Key, Datatype_value> objName= new HashMap()l
+   // HashMap <Datatype_Key, Datatype_value> objName= new HashMap();
 
     public void createHashMap(){
 
